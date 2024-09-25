@@ -13,7 +13,7 @@ export class SafeLinkDirective {
   private hostElementRef = inject<ElementRef<HTMLAnchorElement>>(ElementRef);
 
   constructor() {
-    console.log('safeLink Directeive is active!');
+    console.log('safeLink Directive is active!');
   }
 
   onConfirmLeavePage(event: MouseEvent) {
